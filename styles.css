@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    font-family: "Open Sans";
+}
+header{
+    position: fixed;
+    background-color: #414141;
+    color: white;
+    font-family: sans-serif;
+    height: 55px;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    top: 0;
+}
+
+footer{
+    background-color: #414141;
+    color: white;
+    height: 70px;
+    text-align: center;
+}
+
+footer > *{
+    padding-top: 20px;
+}
+
+#title{
+    font-size: 22px;
+    padding-left: 11px;
+    margin-top: 15px;
+}
+
+#separator{
+    height: 100px;
+    width: 100%;
+}
+
+#boxH{
+    display: inline-flex;
+    width: 100%;
+}
+
+#logoX{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+#logoX > *{
+    margin-left: 20px;
+}
+
+#boxesH{
+    display: inline-flex;
+    position: relative;
+    left: 60%;
+}
+#boxesH a{
+    text-decoration: none;
+    color: white;
+    font-size: 95%;
+}
+
+.boxesH{
+    padding: 15px;
+}
+
+
+#visible{
+    height: 550px;
+    width: 100%;
+    text-align: center;
+}
+
+#visible > *{
+    vertical-align: 50%;
+}
+
+
+
+#centerDiv{
+    height: 400px;
+    width: 85%;
+    top: 50%;
+    margin-left: 50px;
+
+}
+
+#desplazador{
+position: fixed;
+right: 10px;
+top: 40%;
+}
+
+#desplazador li{
+list-style-type: none;
+padding: 10px;
+}
+
+
+
+#cognox{
+    padding-right: 20px;
+    float: right;
+
+}
+
+#make{
+    float: left;
+}
